@@ -1,0 +1,59 @@
+$white: #ffffff;
+$pearl: #f4f1eb;
+$grey: #555a68;
+$haki: #acbfa3;
+$green: #475845;
+$blue: #6174ba;
+$dark_blue: #55659b;
+$gray: #555a68;
+$black: #222722;
+
+// БАЗОВАЯ ТИПОГРАФИКА
+$font-size: 16px;
+$font-size-sm: 0.5em; // 12px от 16px
+$line-height: 26.4;
+$font-family: "Noto Sans", sans-serif;
+$font-family--h1h2h3: "Museo", sans-serif;
+
+// ШИРИНЫ
+$screen-xs: 375px;
+// $screen-sm: 540px;
+// $screen-md: 768px;
+// $screen-lg: 1024px;
+$screen-xl: 1280px;
+
+$container-width: 100%;
+$container-slider: 1346px;
+.menu_all {
+  background-color: transparent;
+  width: 100%;
+  z-index: 2;
+
+  .menu_up {
+    padding: 21px 10px;
+    max-width: $screen-xl;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font-family;
+
+    .logo_up {
+      width: 228px;
+      height: auto;
+    }
+    .menu_ul {
+      ul {
+        display: inline-flex;
+        list-style: none;
+        li {
+          padding-left: 37px;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 26px;
+          letter-spacing: 0em;
+        }
+      }
+    }
+  }
+}
