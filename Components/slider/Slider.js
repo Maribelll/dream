@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import Fancybox from "./Fancybox";
 
-import styles from "../../styles/Slider.module.scss";
+import styles from "../../styles/slider.module.scss";
 import Image from "next/image";
 import image1 from "../../public/slider/land/image1.JPG";
 import image2 from "../../public/slider/land/image2.JPG";
