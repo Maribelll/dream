@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-
+import Logo from "../public/Logo.svg";
 import style from "../styles/menu.module.scss";
 // import style from "../styles/.module.scss";
 
@@ -10,13 +10,8 @@ export function Menu() {
       <div className={style.menu_all}>
         <div className={style.menu_up}>
           <div className={style.logo_up}>
-            <Link href="/">
-              <Image
-                src="https://res.cloudinary.com/dzpwjmq0x/image/upload/v1660746394/rent/Logo_q3i64f.svg"
-                alt="logo"
-                width={228}
-                height={60}
-              />
+            <Link href={"/"}>
+              <Image src={Logo} alt="logo" width={228} height={60} />
             </Link>
           </div>
           <div className={style.menu_ul}>

@@ -1,19 +1,21 @@
 import Head from "next/head";
 import styles from "../styles/Land.module.scss";
-import Slider from "../Components/Slider";
+import Slider from "../Components/slider/Slider";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
-
-// import Swiper and modules styles
-import "swiper/css";
-import "swiper/css/navigation";
 
 export default function Land() {
   return (
     <>
       <Head>
         <title>Land</title>
+        <meta charSet="UTF-8"></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
       </Head>
+
       <div className={styles.backgr}>
         <Menu />
       </div>
@@ -75,37 +77,34 @@ export default function Land() {
 
         <div className={styles.features}>
           <p className={styles.header_features}>Features</p>
-          <p className={styles.features_description}>
-            <ul>
-              <li>Class A RV</li>
-              <li>39 ft</li>
-              <li>Sleeps 8</li>
-              <li>External 50&quot; TV</li>
-              <li>Full length power awning w/ LED</li>
-              <li>SuperSprings ride system</li>
-              <li>4.0kW generator</li>
-              <li>1000 Watt inverter</li>
-              <li>Full features list</li>
-              <li>Full RV overview from manufacturer</li>
-            </ul>
-          </p>
+          <ul className={styles.features_description}>
+            <li>Class A RV</li>
+            <li>39 ft</li>
+            <li>Sleeps 8</li>
+            <li>External 50&quot; TV</li>
+            <li>Full length power awning w/ LED</li>
+            <li>SuperSprings ride system</li>
+            <li>4.0kW generator</li>
+            <li>1000 Watt inverter</li>
+            <li>Full features list</li>
+            <li>Full RV overview from manufacturer</li>
+          </ul>
         </div>
       </div>
+
       <div className={styles.container_rules}>
         <div className={styles.rules}>
-          <p className={styles.h_rules}>Rules & Policies</p>
-          <p className={styles.ul_rules}>
-            <ul>
-              <li>
-                Available for minimum of 7 days all the way up to 21 days at a
-                time
-              </li>
-              <li>Pickup location is Denver, Colorado</li>
-              <li>Airport pickup is available</li>
-              <li>Rental rate - $379 per day</li>
-              <li>150 miles per day allowance</li>
-            </ul>
-          </p>
+          <p className={styles.h_rules}>Rules &amp; Policies</p>
+          <ul className={styles.ul_rules}>
+            <li>
+              Available for minimum of 7 days all the way up to 21 days at a
+              time
+            </li>
+            <li>Pickup location is Denver, Colorado</li>
+            <li>Airport pickup is available</li>
+            <li>Rental rate - $379 per day</li>
+            <li>150 miles per day allowance</li>
+          </ul>
         </div>
       </div>
       <Footer />

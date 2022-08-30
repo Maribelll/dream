@@ -134,13 +134,15 @@ $container-slider: 1346px;
       line-height: 30px;
       letter-spacing: 0em;
     }
-    p {
-      ul {
-        padding-left: 17px;
-      }
+
+    .features_description {
+      padding-left: 17px;
+      line-height: 26.4px;
+      font-family: $font-family;
     }
   }
 }
+
 //rules
 .container_rules {
   background-color: $pearl;
@@ -157,6 +159,11 @@ $container-slider: 1346px;
     }
     .ul_rules {
       max-width: 315px;
+      font-family: $font-family;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26.4px;
+      letter-spacing: 0em;
     }
   }
 }
