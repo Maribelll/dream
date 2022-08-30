@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Layout from "../Components/Layout";
-import styles from "../styles/error.module.scss";
+import styles from "../styles/Error.module.scss";
 
 export default function NotFoundPage() {
   return (
