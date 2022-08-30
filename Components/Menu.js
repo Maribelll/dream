@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../public/Logo.svg";
-import style from "../styles/Menu.module.scss";
+import style from "../styles/menu.module.scss";
 
 export function Menu() {
   return (

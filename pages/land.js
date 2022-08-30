@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/Land.module.scss";
+import styles from "../styles/land.module.scss";
 import Slider from "../Components/slider/Slider";
 import { Menu } from "../Components/Menu";
 import { Footer } from "../Components/Footer";
